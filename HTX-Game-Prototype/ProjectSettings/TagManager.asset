@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coins
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 290622527
+    locked: 0
+  - name: Player
+    uniqueID: 1453871775
+    locked: 0
+  - name: Entities
+    uniqueID: 1532651379
+    locked: 0
+  - name: FG
+    uniqueID: 2672277679
     locked: 0

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1423022443569771667
+--- !u!1 &2164518822045425856
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,56 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7690519743483875917}
-  - component: {fileID: 510707152025509871}
-  m_Layer: 0
-  m_Name: PIPE - Flappy Bird
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7690519743483875917
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423022443569771667}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.483, y: -0.132, z: -97.94159}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7773930660331315723}
-  - {fileID: 8766031288976530787}
-  - {fileID: 2201419884948470226}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &510707152025509871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423022443569771667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85d19c6cc985b464080ae2e7429005c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.6
---- !u!1 &2741934284385849874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2201419884948470226}
-  - component: {fileID: 1108228495860296718}
-  - component: {fileID: 8597863458532524882}
+  - component: {fileID: 4355982731636182728}
+  - component: {fileID: 8602590697475152037}
+  - component: {fileID: 1097787900127211558}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -65,27 +18,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2201419884948470226
+--- !u!4 &4355982731636182728
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2741934284385849874}
+  m_GameObject: {fileID: 2164518822045425856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.16235948, y: 0.08020127, z: 86.733765}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7690519743483875917}
+  m_Father: {fileID: 6810238572988353227}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1108228495860296718
+--- !u!61 &8602590697475152037
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2741934284385849874}
+  m_GameObject: {fileID: 2164518822045425856}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -105,19 +58,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.25749445, y: 0.47404143}
   m_EdgeRadius: 0
---- !u!114 &8597863458532524882
+--- !u!114 &1097787900127211558
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2741934284385849874}
+  m_GameObject: {fileID: 2164518822045425856}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3443d932eabfc0488cabb01451167ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &4690564004542528000
+--- !u!1 &3649466739016331461
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,9 +78,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8766031288976530787}
-  - component: {fileID: 5595668699158761734}
-  - component: {fileID: 2764746086393382023}
+  - component: {fileID: 3163172363493093793}
+  - component: {fileID: 9221340040420670730}
+  - component: {fileID: 8320631828146269927}
   m_Layer: 0
   m_Name: Mobile - Flappy Bird - Version 12 Sprites_7
   m_TagString: Untagged
@@ -135,27 +88,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8766031288976530787
+--- !u!4 &3163172363493093793
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4690564004542528000}
+  m_GameObject: {fileID: 3649466739016331461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -1.016, z: 97.94159}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7690519743483875917}
+  m_Father: {fileID: 6810238572988353227}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5595668699158761734
+--- !u!212 &9221340040420670730
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4690564004542528000}
+  m_GameObject: {fileID: 3649466739016331461}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -186,8 +139,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1622689617
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: 6297297506034485570, guid: fca86ca46061e9a4a8c7d37b9e39231f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -200,13 +153,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2764746086393382023
+--- !u!61 &8320631828146269927
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4690564004542528000}
+  m_GameObject: {fileID: 3649466739016331461}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -226,7 +179,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.26, y: 1.6}
   m_EdgeRadius: 0
---- !u!1 &6272899737140809669
+--- !u!1 &7581454154396223389
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,9 +187,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7773930660331315723}
-  - component: {fileID: 7218185961295633348}
-  - component: {fileID: 2180907945781239105}
+  - component: {fileID: 8500891954107907531}
+  - component: {fileID: 1304510997064560294}
+  - component: {fileID: 2718767972374535625}
   m_Layer: 0
   m_Name: Mobile - Flappy Bird - Version 12 Sprites_6
   m_TagString: Untagged
@@ -244,27 +197,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7773930660331315723
+--- !u!4 &8500891954107907531
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6272899737140809669}
+  m_GameObject: {fileID: 7581454154396223389}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.055, z: 97.94159}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7690519743483875917}
+  m_Father: {fileID: 6810238572988353227}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7218185961295633348
+--- !u!212 &1304510997064560294
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6272899737140809669}
+  m_GameObject: {fileID: 7581454154396223389}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -295,8 +248,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1622689617
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: 6124130483509997730, guid: fca86ca46061e9a4a8c7d37b9e39231f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -309,13 +262,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2180907945781239105
+--- !u!61 &2718767972374535625
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6272899737140809669}
+  m_GameObject: {fileID: 7581454154396223389}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -335,3 +288,50 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.26, y: 1.6}
   m_EdgeRadius: 0
+--- !u!1 &8351454443598896416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6810238572988353227}
+  - component: {fileID: 2529307570466936395}
+  m_Layer: 0
+  m_Name: PIPE - Flappy Bird
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6810238572988353227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8351454443598896416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.483, y: -0.132, z: -97.94159}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8500891954107907531}
+  - {fileID: 3163172363493093793}
+  - {fileID: 4355982731636182728}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2529307570466936395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8351454443598896416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d19c6cc985b464080ae2e7429005c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.6

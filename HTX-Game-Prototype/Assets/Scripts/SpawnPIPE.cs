@@ -21,7 +21,7 @@ public class SpawnPIPE : MonoBehaviour
     {
         if(timer > maxTime)
         {
-            GameObject newpipe = Instantiate(pipe); 
+            GameObject newpipe = Instantiate(pipe);
             newpipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
             Destroy(newpipe, DestroyTimer);
             timer = 0;
