@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8e0e81e84f3c44a8ff6d7dcc0b1f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelScore: 1
+  nextLevelScore: 12
   Object: {fileID: 26955335101099912, guid: d1da9fffb5c07894f981589774eadb9c, type: 3}
 --- !u!1 &1157332255
 GameObject:
@@ -869,13 +869,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1157332255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cdb570a8c376fe488158065395bfc87, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ec6a1a7bf9921c4b8ae77e21f9980a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxTime: 1.5
-  pipe: {fileID: 8351454443598896416, guid: 1d814e13a8cd6a54c826b45d37ce3ea1, type: 3}
+  Object: {fileID: 8351454443598896416, guid: 1d814e13a8cd6a54c826b45d37ce3ea1, type: 3}
   height: 0.5
-  DestroyTimer: 11
+  DestroyTimer: 5
+  nextLevelScore: 11
 --- !u!1 &1334169317
 GameObject:
   m_ObjectHideFlags: 0

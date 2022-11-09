@@ -5,6 +5,7 @@ using UnityEngine;
 public class Score : MonoBehaviour
 {
     public static int score = 0;
+    
 
     private void Start()
     {
@@ -15,4 +16,6 @@ public class Score : MonoBehaviour
     {
         GetComponent<UnityEngine.UI.Text>().text = score.ToString();
     }
+
+
 }
