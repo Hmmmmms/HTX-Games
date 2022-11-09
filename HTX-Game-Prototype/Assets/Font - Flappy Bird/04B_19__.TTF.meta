@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - 04b_19
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a32c5b6ab8c83284886fff4a19799072, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
