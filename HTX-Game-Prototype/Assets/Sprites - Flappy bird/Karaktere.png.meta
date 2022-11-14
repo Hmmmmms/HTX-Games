@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: b671f7e071abb7a40b25ab93c62b6a69
+guid: d7f81b918882f294fa72cf926bd5a5a0
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -1919273281192290357
-    second: Keyboard Keys_0
-  - first:
-      213: -2084053797612007622
-    second: Keyboard Keys_1
-  - first:
-      213: 4708334558765967787
-    second: Keyboard Keys_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -53,7 +44,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -74,7 +65,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -116,64 +107,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Keyboard Keys_0
+      name: Karaktere_0
       rect:
         serializedVersion: 2
-        x: 288
-        y: 172
-        width: 52
-        height: 48
+        x: 0
+        y: 0
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc792a79e1f5d55e0800000000000000
-      internalID: -1919273281192290357
+      spriteID: 22364bb107bf0b445918b37f59ff0270
+      internalID: 2006915838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard Keys_1
+      name: Karaktere_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 68
-        width: 88
-        height: 48
+        x: 22
+        y: 0
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3f4884ec14f313e0800000000000000
-      internalID: -2084053797612007622
+      spriteID: 726c740e456971a4fb69f3cba4b6eef1
+      internalID: 1374577638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard Keys_2
+      name: Karaktere_2
       rect:
         serializedVersion: 2
-        x: 780
-        y: 120
-        width: 44
-        height: 48
+        x: 44
+        y: 0
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9e0fad55d575140800000000000000
-      internalID: 4708334558765967787
+      spriteID: 81b1c454d0b3dbd42bf8eecc14c8a556
+      internalID: -1279049370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karaktere_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83676b0c9b60b3d439577bf6d2974420
+      internalID: 707806155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karaktere_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dae0545ea58914eba6312130591cc6
+      internalID: -169467977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karaktere_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb61d22ee345b434099261568143e21e
+      internalID: 1399996106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karaktere_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19b2cc0fb9e8364abf230577029040d
+      internalID: -908110930
       vertices: []
       indices: 
       edges: []
@@ -189,9 +264,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Keyboard Keys_1: -2084053797612007622
-      Keyboard Keys_0: -1919273281192290357
-      Keyboard Keys_2: 4708334558765967787
+      Karaktere_0: 2006915838
+      Karaktere_2: -1279049370
+      Karaktere_4: -169467977
+      Karaktere_3: 707806155
+      Karaktere_5: 1399996106
+      Karaktere_1: 1374577638
+      Karaktere_6: -908110930
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

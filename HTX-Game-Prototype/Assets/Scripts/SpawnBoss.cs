@@ -20,7 +20,7 @@ public class SpawnBoss : MonoBehaviour
     void Update()
     {
 
-        if (Score.score == BossSpawnScore)
+        if (Score.score == BossSpawnScore && Karakter.karakter > 2)
         {
             timerOn = true;
             if (timerOn == true)

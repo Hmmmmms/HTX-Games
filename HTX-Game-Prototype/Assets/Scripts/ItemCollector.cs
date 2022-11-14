@@ -6,16 +6,17 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int Coins = 0;
+    private float Karakter_score;
+    private float Amount_of_karaktere;
 
-    [SerializeField] private Text Coin_Count;
+    private Text Karakter_Count;
 
     
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.gameObject.CompareTag("Coins"))
+        if (collision.gameObject.CompareTag("12"))
         {
             string collectableItem = collision.gameObject.GetComponent<Collectable>().collectableItem;
 
@@ -23,10 +24,80 @@ public class ItemCollector : MonoBehaviour
 
             Destroy(collision.gameObject);
 
-            Coins++;
-            Coin_Count.text = Convert.ToString(Coins);
+            Karakter_score = (Karakter_score + 12);
+            Amount_of_karaktere++;
+        }
+        else if (collision.gameObject.CompareTag("10"))
+        {
+            string collectableItem = collision.gameObject.GetComponent<Collectable>().collectableItem;
+
+
+
+            Destroy(collision.gameObject);
+
+            Karakter_score = (Karakter_score + 10);
+            Amount_of_karaktere++;
+        }
+        else if (collision.gameObject.CompareTag("7"))
+        {
+            string collectableItem = collision.gameObject.GetComponent<Collectable>().collectableItem;
+
+
+
+            Destroy(collision.gameObject);
+
+            Karakter_score = (Karakter_score + 7);
+            Amount_of_karaktere++;
+        }
+        else if (collision.gameObject.CompareTag("4"))
+        {
+            string collectableItem = collision.gameObject.GetComponent<Collectable>().collectableItem;
+
+
+
+            Destroy(collision.gameObject);
+
+            Karakter_score = (Karakter_score + 4);
+            Amount_of_karaktere++;
+        }
+        else if (collision.gameObject.CompareTag("02"))
+        {
+            string collectableItem = collision.gameObject.GetComponent<Collectable>().collectableItem;
+
+
+
+            Destroy(collision.gameObject);
+
+            Karakter_score = (Karakter_score + 2);
+            Amount_of_karaktere++;
+        }
+        else if (collision.gameObject.CompareTag("00"))
+        {
+            string collectableItem = collision.gameObject.GetComponent<Collectable>().collectableItem;
+
+
+
+            Destroy(collision.gameObject);
+
+            Karakter_score = (Karakter_score + 0);
+            Amount_of_karaktere++;
+        }
+        else if (collision.gameObject.CompareTag("-03"))
+        {
+            string collectableItem = collision.gameObject.GetComponent<Collectable>().collectableItem;
+
+
+
+            Destroy(collision.gameObject);
+
+            Karakter_score = (Karakter_score + -3);
+            Amount_of_karaktere++;
         }
 
+        if (Amount_of_karaktere > 0)
+        {
+            Karakter.karakter = (Karakter_score / Amount_of_karaktere);
+        }
     }
 
 }
