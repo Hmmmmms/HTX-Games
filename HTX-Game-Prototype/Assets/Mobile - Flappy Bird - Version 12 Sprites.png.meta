@@ -63,6 +63,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -412,6 +413,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Flappy Bird - Version 12 Sprites_10: 5521694834215240920
+      Mobile - Flappy Bird - Version 12 Sprites_12: 8433751597566169029
+      Mobile - Flappy Bird - Version 12 Sprites_6: 6124130483509997730
+      Mobile - Flappy Bird - Version 12 Sprites_4: -6830950117582225322
+      Mobile - Flappy Bird - Version 12 Sprites_3: -514118242663219353
+      Mobile - Flappy Bird - Version 12 Sprites_2: 7294014354058790825
+      Mobile - Flappy Bird - Version 12 Sprites_11: -3400579567936777025
+      Mobile - Flappy Bird - Version 12 Sprites_7: 6297297506034485570
+      Mobile - Flappy Bird - Version 12 Sprites_8: 5897210807152635017
+      Mobile - Flappy Bird - Version 12 Sprites_9: -8672742685835622642
+      Mobile - Flappy Bird - Version 12 Sprites_0: 5003628964238269105
+      Mobile - Flappy Bird - Version 12 Sprites_5: -8998104236824694837
+      Mobile - Flappy Bird - Version 12 Sprites_1: -221491057933239876
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
