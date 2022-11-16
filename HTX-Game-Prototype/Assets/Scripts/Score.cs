@@ -14,7 +14,7 @@ public class Score : MonoBehaviour
 
     public void Update()
     {
-        GetComponent<UnityEngine.UI.Text>().text = score.ToString();
+        
     }
 
 

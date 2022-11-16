@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Karakter : MonoBehaviour
 {
-    public static float karakter;
+    public static double karakter;
 
 
     private void Start()

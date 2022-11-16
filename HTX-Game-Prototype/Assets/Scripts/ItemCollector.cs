@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    private float Karakter_score;
-    private float Amount_of_karaktere;
+    private double Karakter_score;
+    private double Amount_of_karaktere;
 
     private Text Karakter_Count;
 
@@ -96,7 +96,7 @@ public class ItemCollector : MonoBehaviour
 
         if (Amount_of_karaktere > 0)
         {
-            Karakter.karakter = (Karakter_score / Amount_of_karaktere);
+            Karakter.karakter = Math.Round(Karakter_score / Amount_of_karaktere, 1);
         }
     }
 
