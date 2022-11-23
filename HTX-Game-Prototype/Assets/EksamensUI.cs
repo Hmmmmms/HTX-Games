@@ -1,0 +1,45 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class EksamensUI : MonoBehaviour
+{
+    public GameManager gameManager;
+    private float timer = 0;
+    private bool timerOn;
+    private float eksamensminusTimer;
+    public static float eksamensTimer = 0;
+    void Start()
+    {
+        timer = 0;
+        eksamensTimer = 0;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (Score.score == 12)
+        {
+            timerOn = true;
+            if (timerOn == true)
+            {
+                timer += Time.deltaTime;
+            }
+        }
+
+        if (timer > SpawnBoss.maxTimeSpawnBoss)
+        {
+            gameManager.EksamensRunde();
+
+            eksamensminusTimer += Time.deltaTime;
+
+            eksamensTimer = 20 - Mathf.FloorToInt(eksamensminusTimer);
+
+
+        }
+    }
+}
+

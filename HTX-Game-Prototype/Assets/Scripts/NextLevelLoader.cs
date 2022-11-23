@@ -5,9 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class NextLevelLoader : MonoBehaviour
 {
-    public int loadNextLevelScore;
+    private int loadNextLevelScore = 12;
     private float timer = 0;
-    public float maxTime = 1;
     private bool timerOn;
 
     public string BeståetLevelToLoad;
@@ -28,9 +27,9 @@ public class NextLevelLoader : MonoBehaviour
                 }
         }
 
-            if (timer > maxTime)
+            if (timer > SpawnBoss.maxTimeSpawnBoss && EksamensUI.eksamensTimer == 1)
             {
-                LoadScene();
+                    LoadScene();
             }
     }
     void LoadScene()

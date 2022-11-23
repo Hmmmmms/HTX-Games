@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 public class DumpetLevelLoader : MonoBehaviour
 {
     public int loadNextLevelScore;
- 
+    private float timer = 0;
+    public float maxTime = 1;
+    private bool timerOn;
+
+
     public string DumpetLevelToLoad;
     void Start()
     {
@@ -18,8 +22,17 @@ public class DumpetLevelLoader : MonoBehaviour
     {
         if (Score.score == loadNextLevelScore && Karakter.karakter < 2)
         {
-           
-                DumpetLoadScene();
+            timerOn = true;
+            if (timerOn == true)
+            {
+                timer += Time.deltaTime;
+            }
+        }
+
+        if (timer > maxTime)
+        {
+           DumpetLoadScene();
+        }
         }
     
     void DumpetLoadScene()
@@ -28,4 +41,4 @@ public class DumpetLevelLoader : MonoBehaviour
     }
 
 }
-    }
+

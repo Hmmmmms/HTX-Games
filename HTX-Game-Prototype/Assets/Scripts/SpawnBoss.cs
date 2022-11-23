@@ -6,7 +6,7 @@ public class SpawnBoss : MonoBehaviour
 {
     public int BossSpawnScore;
     public GameObject Object;
-    public float maxTime = 1;
+    public static float maxTimeSpawnBoss = 3;
     private float timer = 0;
     private bool timerOn;
 
@@ -29,7 +29,7 @@ public class SpawnBoss : MonoBehaviour
             }
         }
 
-        if (timer > maxTime && spawned == false)
+        if (timer > maxTimeSpawnBoss && spawned == false)
         {
             Instantiate(Object);
 
