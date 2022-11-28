@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8611450088024096611, guid: 990333ed83c9418479117864a6abe6f7, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8611450088024096611, guid: 990333ed83c9418479117864a6abe6f7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60,6 +60,26 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -887623881, guid: 1e1d4fba72e56a64c9edb4e798582856, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8611450088024096608, guid: 990333ed83c9418479117864a6abe6f7, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 990333ed83c9418479117864a6abe6f7, type: 3}
+--- !u!1 &6564276084940513649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8611450088024096612, guid: 990333ed83c9418479117864a6abe6f7, type: 3}
+  m_PrefabInstance: {fileID: 3214156622420385301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1897817986991404762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564276084940513649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587375520ca6885468881d34314e33c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 3
+  bulletDestroy: 2

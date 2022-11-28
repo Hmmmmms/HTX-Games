@@ -1961,7 +1961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a71aacef81f30f446937e4491b4f8547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BossSpawnScore: 12
+  BossSpawnScore: 1
   Object: {fileID: 6259893784678577634, guid: c64623d44c43b3e48b29666387755a0e, type: 3}
 --- !u!1 &1875807225
 GameObject:
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   Object: {fileID: 8351454443598896416, guid: 1d814e13a8cd6a54c826b45d37ce3ea1, type: 3}
   height: 0.5
   DestroyTimer: 5
-  nextLevelScore: 12
+  nextLevelScore: 1
 --- !u!4 &1899540304
 Transform:
   m_ObjectHideFlags: 0
