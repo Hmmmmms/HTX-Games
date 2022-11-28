@@ -23,7 +23,11 @@ public class FlyScript : MonoBehaviour
             if ((Input.GetMouseButtonDown(0)) || (Input.GetKeyDown("up")) || (Input.GetKeyDown("space")) || (Input.GetKeyDown("w")))
             {
                 Time.timeScale = 1;
-                gameManager.StartGame();
+
+                if (GameManager.Eksamensrunde == false)
+                {
+                    gameManager.StartGame();
+                }
 
                 rb.velocity = Vector2.up * velocity;
             }

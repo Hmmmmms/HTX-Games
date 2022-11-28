@@ -14,8 +14,7 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        GameObject newObject = Instantiate(Object);
-        newObject.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
+        
 
     }
 
