@@ -8,16 +8,39 @@ public class FlyScript : MonoBehaviour
     public float velocity = 1;
     private Rigidbody2D rb;
     Animator bird_Anim;
+    [SerializeField] private AudioSource Flap;
+    [SerializeField] private AudioSource BossRawr;
+    private bool hasPlayedBossRawr = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         bird_Anim = GetComponent<Animator>();
+        StartCoroutine(waiter());
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(Score.score == 12 && EksamensUI.FreezePosUntilBoss == true)
+        {
+            
+            waiter();
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            gameManager.BossMinecraftChat();
+            if (hasPlayedBossRawr == false)
+            {
+                BossRawr.Play();
+                hasPlayedBossRawr = true;
+            }
+        }
+        else
+        {
+            rb.constraints = RigidbodyConstraints2D.None;
+            
+        }
+ 
+
         if (GameManager.PauseInputGameOver == false)
         {
             if ((Input.GetMouseButtonDown(0)) || (Input.GetKeyDown("up")) || (Input.GetKeyDown("space")) || (Input.GetKeyDown("w")))
@@ -30,6 +53,7 @@ public class FlyScript : MonoBehaviour
                 }
 
                 rb.velocity = Vector2.up * velocity;
+                Flap.Play();
             }
         }
 
@@ -50,5 +74,10 @@ public class FlyScript : MonoBehaviour
 
 
             }
+
+    IEnumerator waiter()
+    {
+        yield return new WaitForSecondsRealtime(1/2);
+    }
 
 }

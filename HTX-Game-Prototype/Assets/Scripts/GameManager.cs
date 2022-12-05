@@ -9,15 +9,20 @@ public class GameManager : MonoBehaviour
     public GameObject startGameCanvas;
     public GameObject gameUI;
     public GameObject EksamensCanvas;
+    public GameObject MinecraftChat;
     public static bool PauseAnim;
     public static bool PauseInputGameOver;
     public static bool Eksamensrunde;
+
+    [SerializeField] private AudioSource BossRawr;
+
 
     private void Start()
     {
         startGameCanvas.SetActive(true);
         gameOverCanvas.SetActive(false);
         EksamensCanvas.SetActive(false);
+        MinecraftChat.SetActive(false);
         gameUI.SetActive(false);
         Time.timeScale = 0;
         PauseAnim = false;
@@ -31,6 +36,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
         PauseAnim = true;
         PauseInputGameOver = true;
+        MinecraftChat.SetActive(false);
     }
 
     
@@ -46,7 +52,14 @@ public class GameManager : MonoBehaviour
         gameUI.SetActive(false);
         EksamensCanvas.SetActive(true);
         Eksamensrunde = true;
+        MinecraftChat.SetActive(false);
     }
+
+    public void BossMinecraftChat()
+    {
+        MinecraftChat.SetActive(true);
+    }
+
 
     public void Replay()
     {

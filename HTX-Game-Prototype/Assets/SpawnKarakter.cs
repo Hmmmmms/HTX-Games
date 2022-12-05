@@ -44,7 +44,7 @@ public class SpawnKarakter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Score.score < nextLevelScore) && (timer > maxTime))
+        if ((Score.score < nextLevelScore-2) && (timer > maxTime))
         {
             int prefabIndex = Random.Range(0, 7);
 

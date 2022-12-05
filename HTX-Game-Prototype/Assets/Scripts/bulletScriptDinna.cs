@@ -15,10 +15,7 @@ public class bulletScriptDinna : MonoBehaviour
     void Start()
     {
 
-        Random tal = new Random();
-
-        int randomShootHeight = Random.Next;
-        
+        int randomShootHeight = Random.Range(0, 2);
 
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");

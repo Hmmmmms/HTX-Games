@@ -11,6 +11,8 @@ public class ItemCollector : MonoBehaviour
 
     private Text Karakter_Count;
 
+    [SerializeField] private AudioSource collectionSound;
+
     
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -26,6 +28,7 @@ public class ItemCollector : MonoBehaviour
 
             Karakter_score = (Karakter_score + 12);
             Amount_of_karaktere++;
+            collectionSound.Play();
         }
         else if (collision.gameObject.CompareTag("10"))
         {
@@ -37,6 +40,7 @@ public class ItemCollector : MonoBehaviour
 
             Karakter_score = (Karakter_score + 10);
             Amount_of_karaktere++;
+            collectionSound.Play();
         }
         else if (collision.gameObject.CompareTag("7"))
         {
@@ -48,6 +52,7 @@ public class ItemCollector : MonoBehaviour
 
             Karakter_score = (Karakter_score + 7);
             Amount_of_karaktere++;
+            collectionSound.Play();
         }
         else if (collision.gameObject.CompareTag("4"))
         {
@@ -59,6 +64,7 @@ public class ItemCollector : MonoBehaviour
 
             Karakter_score = (Karakter_score + 4);
             Amount_of_karaktere++;
+            collectionSound.Play();
         }
         else if (collision.gameObject.CompareTag("02"))
         {
@@ -70,6 +76,7 @@ public class ItemCollector : MonoBehaviour
 
             Karakter_score = (Karakter_score + 2);
             Amount_of_karaktere++;
+            collectionSound.Play();
         }
         else if (collision.gameObject.CompareTag("00"))
         {
@@ -81,6 +88,7 @@ public class ItemCollector : MonoBehaviour
 
             Karakter_score = (Karakter_score + 0);
             Amount_of_karaktere++;
+            collectionSound.Play();
         }
         else if (collision.gameObject.CompareTag("-03"))
         {
@@ -92,6 +100,7 @@ public class ItemCollector : MonoBehaviour
 
             Karakter_score = (Karakter_score + -3);
             Amount_of_karaktere++;
+            collectionSound.Play();
         }
 
         if (Amount_of_karaktere > 0)

@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Score.score < nextLevelScore) && (timer > maxTime))
+        if ((Score.score < nextLevelScore-1) && (timer > maxTime))
         {
             GameObject newObject = Instantiate(Object);
             newObject.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);

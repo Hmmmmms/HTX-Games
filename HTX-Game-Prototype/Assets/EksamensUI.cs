@@ -11,10 +11,12 @@ public class EksamensUI : MonoBehaviour
     private bool timerOn;
     private float eksamensminusTimer;
     public static float eksamensTimer = 0;
+    public static bool FreezePosUntilBoss;
     void Start()
     {
         timer = 0;
         eksamensTimer = 0;
+        FreezePosUntilBoss = true;
     }
 
     // Update is called once per frame
@@ -32,6 +34,7 @@ public class EksamensUI : MonoBehaviour
 
         if (timer > SpawnBoss.maxTimeSpawnBoss)
         {
+            FreezePosUntilBoss = false;
             gameManager.EksamensRunde();
 
             eksamensminusTimer += Time.deltaTime;

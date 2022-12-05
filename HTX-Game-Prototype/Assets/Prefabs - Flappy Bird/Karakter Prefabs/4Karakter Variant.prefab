@@ -55,7 +55,7 @@ PrefabInstance:
     - target: {fileID: 2686922224860059305, guid: bd7ac9eb1e8ec3e41bec582664d28626, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 707806155, guid: d7f81b918882f294fa72cf926bd5a5a0, type: 3}
+      objectReference: {fileID: 2120443697, guid: ef53aba9ed3866d42ab10d9ed386064b, type: 3}
     - target: {fileID: 2686922224860059310, guid: bd7ac9eb1e8ec3e41bec582664d28626, type: 3}
       propertyPath: m_Name
       value: 4Karakter Variant
