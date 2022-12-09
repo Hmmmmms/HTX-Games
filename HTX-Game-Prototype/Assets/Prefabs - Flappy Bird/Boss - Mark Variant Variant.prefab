@@ -57,9 +57,17 @@ PrefabInstance:
       value: Boss - Mark Variant Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6909660778683067964, guid: e38e86b816eff2049956e61b851780fd, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909660778683067964, guid: e38e86b816eff2049956e61b851780fd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c53becd2a077cb048bdee5550a494060, type: 3}
+      objectReference: {fileID: 21300000, guid: 2af5cd1a1205aa741a8c7a814032d9ab, type: 3}
+    - target: {fileID: 6909660778683067965, guid: e38e86b816eff2049956e61b851780fd, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9144535587266647750, guid: 1b392139cae630145a52dff1b1119fc2, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e38e86b816eff2049956e61b851780fd, type: 3}

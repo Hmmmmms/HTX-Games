@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6440024051762332127}
   - component: {fileID: 6440024051762332125}
   - component: {fileID: -5740942618176340225}
-  - component: {fileID: 1609179188153119035}
+  - component: {fileID: 8149758769233460050}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coins
@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6440024051762332127
 SpriteRenderer:
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableItem: Coin
---- !u!58 &1609179188153119035
+--- !u!58 &8149758769233460050
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,4 +128,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.11
+  m_Radius: 0.1
